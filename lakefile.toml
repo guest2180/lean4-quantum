@@ -1,0 +1,15 @@
+name = "myyt"
+version = "0.1.0"
+defaultTargets = ["myyt"]
+
+[[lean_lib]]
+name = "Myyt"
+
+[[lean_exe]]
+name = "myyt"
+root = "Main"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.16.0"
