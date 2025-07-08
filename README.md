@@ -1,7 +1,7 @@
 # Readme based on orginal project:
 ## Quantum Computing in Lean
 
-This is an implementation of the theory of quantum computing in the Lean programming language (using the Lean theorem prover version 4).
+This is an implementation of the theory of quantum computing in the Lean programming language (using the Lean theorem prover version 4). [The original lean3 project](https://github.com/duckki/lean-quantum)
 
 It's built on top of the "mathlib" library written by the Lean Community.
 
@@ -22,7 +22,7 @@ It's built on top of the "mathlib" library written by the Lean Community.
 
 * [quantum.lean](Myyt/quantum.lean): Definitions for quantum computing, such as measurements and basic states and circuits.
 
-* [quantum_lemmas.lean](Myyt/quantum_lemma.lean): Derived facts from the definitions in the [quantum.lean](Myyt/quantum.lean) file.
+* [quantum_lemma.lean](Myyt/quantum_lemma.lean): Derived facts from the definitions in the [quantum.lean](Myyt/quantum.lean) file.
 
 * [measurement.lean]: More generalized definitions of measurements and theorems about them.(This part has not been converted into lean 4 because writer is lazy)
 
@@ -59,7 +59,9 @@ It's built on top of the "mathlib" library written by the Lean Community.
 
 * This project can be running on Lean v4.16.0 and mathlib.
 
-* It's not recommend to simply integration this project into other lean 4 project, because this project is completely based on the old lean 3 version, which may contain outdated definitions, lemmas and theorems. Besides, the low performance of macros used in [quantum_lemmas.lean](Myyt/quantum_lemmas.lean) will lead to slow compilation speed and high performance occupancy.
+* I don't know if anybody else is working on these things, at least I can't find anything similar when I begin this project.
 
+* It's not recommend to simply integration this project into other lean 4 project, because this project is completely based on the old lean 3 version, which may contain outdated definitions, lemmas and theorems. Besides, the low performance of macros used in [quantum_lemma.lean](Myyt/quantum_lemma.lean) will lead to slow compilation speed and high performance occupancy.
 
+* It seems that I won’t modify this project for a long time, so I may not update this project even if someone offers some improvement ideas.
      
